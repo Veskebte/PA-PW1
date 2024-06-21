@@ -43,43 +43,19 @@
                         <u>embodiment</u>, and <u>expression</u>.
                     </p>
                 </div>
-                <i class='bx bx-chevron-down display-1 mt-2'><a href="#"></a></i>
+                <a href="#call" class="text-body-secondary text-decoration-none">
+                    <i class='bx bx-chevron-down display-1 mt-2'></i>
+                </a>
             </div>
         </div>
     </div>
 </div>
 
 <div class="py-5 bg-black bg-opacity-75">
-    <div class="container d-flex flex-column justify-content-center align-items-center">
-        <h2 class="text-center text-light" style="padding-top: 30px">Our Unique Process</h2>
-        {{-- <div class="row justify-content-center align-items-center">
-            <div class="col-12 col-md-4 d-flex justify-content-center mb-3">
-                <img src="image/ft-about-1.jpg" class="img-fluid rounded float-md-end mb-3 ms-md-3" style="width: 300px; height: 400px;">
-            </div>
-            <div class="col-12 col-md-8">
-                <p class="text-white-50 fs-2 text-center text-md-start">
-                    Focus. is more than a studio — It's a space where art meets intentionality.
-                </p>
-
-                <p class="text-white text-center text-md-start">
-                    Within the vibrant heart of Palembang, we focus on helping you bring your ideas to life.
-                    Here, you are not merely a subject to be captured, but an artist crafting your own unique expression.
-                    Let your soul be the pallete, your emotions the vibrant hues, and the lens of the camera a mirror reflecting your truest essence.
-                    <br><br>
-                    Every click of camera and stroke of the brush, is a step towards embracing the work of art that is you.
-                </p>
-
-                <p class="py-5 d-flex justify-content-center justify-content-md-center">
-                    <a href="#" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover justify-content-center align-items-center">
-                        VIEW OUR EXPERIENCES
-                    </a>
-                </p>
-            </div>
-        </div> --}}
-    </div>
+    <div class="container d-flex flex-column justify-content-center align-items-center"></div>
 </div>
 
-<div class="py-5 bg-black bg-opacity-25">
+<div class="py-5 bg-black bg-opacity-25" id="call">
     <div class="container d-flex flex-column justify-content-center align-items-center">
         <div class="row justify-content-center align-items-center" style="margin-top: 50px">
             <div class="col-md-4 py-3 py-md-0">
@@ -117,7 +93,7 @@
                             <li> Focus<span class="text-danger">.</span> Videoshoot (fully-guided through every pose and expression)</li>
                             <li>Options to purchase additional edited videos</li>
                         </ul>
-                        <h6 class="mt-3">STARTS FROM IDR350K PER HOUR</h6>
+                        <h6 class="mt-3">STARTS FROM ID550K PER HOUR</h6>
                     </div>
                 </div>
             </div>

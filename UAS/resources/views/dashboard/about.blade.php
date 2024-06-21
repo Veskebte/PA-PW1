@@ -48,11 +48,45 @@
     </div>
 </div>
 
-<div class="py-5 bg-black bg-opacity-75" id="desc">
-    <div class="container d-flex flex-column justify-content-center align-items-center">
-        <h1 class="text-white-50 fs-1 text-center text-md-start">
-            OUR CREW
-        </h1>
+<div class="py-5 bg-black bg-opacity-75">
+    <div class="container">
+        <div class="row justify-content-center align-items-center" style="margin-top: 50px;">
+            <div class="col-md-6 col-lg-3 py-3 py-md-0">
+                <h1 class="text-white-50 text-start" style="padding-top: 30px; text-align: center;">OUR CREW</h1>
+                <br>
+                <p class="text-white text-start">
+                    We help everyday individuals unlock their potential and find new and exciting ways to feel confident and empowered. Together, we explore the depths of our identity, shedding expectations, and tuning into our emotions to capture all layers of our authentic essence.
+                </p>
+            </div>
+            <div class="col-md-6 col-lg-3 py-3 py-md-0">
+                <div class="card text-bg-dark mb-3">
+                    <img src="image/Nath.png" class="card-img-top" style="max-width: 100%;">
+                    <div class="card-img-overlay d-flex flex-column align-items-end justify-content-end">
+                        <h5 class="card-title text-white">NATHASYA PERNIDYA ASHARI</h5>
+                    </div>
+                </div>
+                <div class="card text-bg-dark">
+                    <img src="image/Obi.png" class="card-img-top" style="max-width: 100%;">
+                    <div class="card-img-overlay d-flex flex-column align-items-end justify-content-end">
+                        <h5 class="card-title text-white">MUHAMMAD ALFAROBI</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 py-3 py-md-0">
+                <div class="card text-bg-dark mb-3">
+                    <img src="image/Nadhia.png" class="card-img-top" style="max-width: 100%;">
+                    <div class="card-img-overlay d-flex flex-column align-items-end justify-content-end">
+                        <h5 class="card-title text-white">NADHIA JASMINE</h5>
+                    </div>
+                </div>
+                <div class="card text-bg-dark">
+                    <img src="image/Fajar.png" class="card-img-top" style="max-width: 100%;">
+                    <div class="card-img-overlay d-flex flex-column align-items-end justify-content-end">
+                        <h5 class="card-title text-white">MUHAMMAD FAJAR ARIANSYAH</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 

@@ -32,74 +32,139 @@
     </div>
 </nav>
 
-<div class="py-5 bg-black bg-opacity-75">
-    <div class="container d-flex flex-column justify-content-center align-items-center">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-12 col-md-4 d-flex justify-content-center mb-3">
-                <img src="image/ft-about-1.jpg" class="img-fluid rounded float-md-end mb-3 ms-md-3" style="width: 300px; height: 400px;">
+<div class="container-fluid bg-dark p-0">
+    <div class="position-relative w-100 vh-100">
+        <div class="position-absolute w-100 h-100 top-0 d-flex justify-content-center align-items-center">
+            <div class="container d-flex flex-column justify-content-center align-items-center">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12 col-md-5 d-flex justify-content-center">
+                        <img src="image/ft-thumb.png" class="img-fluid rounded mb-3" style="max-width: 80%; height: auto;">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h1 class="text-white-50 text-center text-md-start mb-5">
+                            SELF-DISCOVERY VISUAL EXPERIENCE
+                        </h1>
+                        <p class="text-white fs-5 text-center text-md-start mb-5">
+                            Embark on a groundbreaking encounter in Palembang, where creativity meets exploration.
+                            This goes beyond mere visuals, it's a chance to creatively connect with and fostering a deeper understanding and appreciation of your unique journey.
+                        </p>
+                        <div class="d-flex flex-column flex-md-row justify-content-center justify-content-md-start">
+                            <div class="col">
+                                <div class="p-2 w-100">
+                                    <a href="{{route("book")}}" class="btn btn-outline-light rounded-pill w-100" type="button">
+                                        GET STARTED
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="p-2 w-100">
+                                    <a href="#choose" class="btn btn-outline-light rounded-pill w-100" type="button">
+                                        LEARN MORE
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-12 col-md-8">
-                <p class="text-white-50 fs-2 text-center text-md-start">
-                    Focus. is more than a studio — It's a space where art meets intentionality.
-                </p>
+        </div>
+    </div>
+</div>
 
-                <p class="text-white text-center text-md-start">
-                    Within the vibrant heart of Palembang, we focus on helping you bring your ideas to life.
-                    Here, you are not merely a subject to be captured, but an artist crafting your own unique expression.
-                    Let your soul be the pallete, your emotions the vibrant hues, and the lens of the camera a mirror reflecting your truest essence.
-                    <br><br>
-                    Every click of camera and stroke of the brush, is a step towards embracing the work of art that is you.
+<div class="py-5 bg-dark bg-opacity-75" id="choose">
+    <div class="container px-4 text-center">
+        <div class="row gx-5">
+            <div class="col-12 col-md-6 text-start">
+                <div class="p-3 col-md-8">
+                    <h1 class="text-white-50 text-start">Design Your Shoot in 3 Steps</h1>
+                </div>
+                <div class="p-3">
+                    <ul class="text-light list-unstyled mt-3">
+                        <li class="mb-5">
+                            <h5 class="fst-italic fs-3 mb-2">01. Pick Your Expressions</h5>
+                            <p>
+                                We love helping our clients' exploration of their creativity and expression.
+                                Whether you embrace or challenge different facets of yourself, we are here to guide you in discovering the various dimensions of your identity."
+                            </p>
+                        </li>
+                        <li class="mb-5">
+                            <h5 class="fst-italic fs-3 mb-2">02. Craft Your Own Definition</h5>
+                            <p>
+                                Each expression is only a starting point - you need to to imbue it with your own meaning and purpose.
+                                Rather than confining you to our interpretation of these expressions, we encourage you to delve deep and discover what they signify to you on both an emotional and visual level.
+                            </p>
+                        </li>
+                        <li class="mb-5">
+                            <h5 class="fst-italic fs-3 mb-2">03. Visualize Your Expressions</h5>
+                            <p>
+                                We assist you in envisioning how to confidently embody various aspects of yourself.
+                                How does each version of you move, communicate, and dress uniquely?
+                                From selecting colors, textures, and styles, we encourage creativity in curating your wardrobe to authentically express each of the facets you wish to vent.                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="p-3">
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="image/cr-1.png" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="image/cr-2.png" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="image/cr-3.png" class="d-block w-100">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="text-center py-5">
+            <div class="d-grid">
+                <p class="text-white-50 fst-italic mb-0">
+                    Through this experience, I want to...
                 </p>
-
-                <p class="py-5 d-flex justify-content-center justify-content-md-center">
-                    <a href="#" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover justify-content-center align-items-center">
-                        VIEW OUR EXPERIENCES
-                    </a>
+                <p class="text-light mb-3">
+                    learn that my creativity is not bound by my gender, race, or societal background.
+                </p>
+                <a href="{{ route("book") }}" class="btn btn-outline-light rounded-pill mt-3" type="button">
+                    GET STARTED
+                </a>
+                <p class="text-light mt-3">
+                    Learn about our Pricing and
+                    <br>
+                    Book a Free Consult to Get Started.
                 </p>
             </div>
         </div>
     </div>
 </div>
 
-<div class="py-5 bg-dark">
-    <div class="container d-flex flex-column justify-content-center align-items-center">
-        <h2 class="text-center text-white-50" style="padding-top: 30px">Our Experiences</h2>
-        <div class="row justify-content-center align-items-center" style="margin-top: 50px">
-            <div class="col-md-4 py-3 py-md-0">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">PHOTOSHOOT</h5>
-                        <p class="card-text text-center">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, officia velit. Tempore qui autem unde accusantium praesentium magnam recusandae pariatur.
-                        </p>
-                    </div>
-                </div>
+<div class="container-fluid p-0">
+    <div class="position-relative w-100 vh-100">
+        <img src="image/pr-w.png" class="img-fluid w-100 h-100" style="object-fit: cover;">
+        <div class="position-absolute bottom-0 start-0 text-white p-4">
+            <div class="container" style="max-width: 600px;">
+                <p class="fs-5 mb-3">
+                    "If you're considering a portrait session, dive into the world of Focus.
+                    Their dedication to celebrating individuality captivated me.
+                    It was a rewarding, collaborative journey that inspired and left a lasting impression on embracing your true self."
+                </p>
+                <p class="fs-6 mb-0">- NICOLE C.</p>
             </div>
-            <div class="col-md-4 py-3 py-md-0">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">VIDEOSHOOT</h5>
-                        <p class="card-text text-center">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, officia velit. Tempore qui autem unde accusantium praesentium magnam recusandae pariatur.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 py-3 py-md-0">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">STUDIO</h5>
-                        <p class="card-text text-center">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, officia velit. Tempore qui autem unde accusantium praesentium magnam recusandae pariatur.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="py-5 d-flex justify-content-center justify-content-md-end">
-            <a href="{{ route('service') }}" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
-                FIND OUT MORE
-            </a>
         </div>
     </div>
 </div>

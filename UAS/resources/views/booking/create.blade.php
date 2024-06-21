@@ -3,20 +3,22 @@
 @section('content')
 <nav class="navbar navbar-expand-lg bg-transparent fixed-top">
     <div class="container">
-        <a class="navbar-brand me-auto text-light" style="font-size: 2rem" href="{{ route('home') }}">Focus<span class="text-danger" style="font-size: 2rem">.</span></a>
+        <a class="navbar-brand me-auto text-light" style="font-size: 2rem" href="{{ route('user.index') }}">
+            Focus<span class="text-danger" style="font-size: 2rem">.</span>
+        </a>
         <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3">
                 <li class="nav-item">
-                    <a class="nav-link mx-lg-2 text-light" aria-current="page" href="{{ route('about') }}">ABOUT</a>
+                    <a class="nav-link mx-lg-2 text-light" aria-current="page" href="{{ route('user.about') }}">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mx-lg-2 text-light" href="{{ route('service') }}">SERVICES</a>
+                    <a class="nav-link mx-lg-2 text-light" href="{{ route('user.service') }}">SERVICES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mx-lg-2 text-light" aria-current="page" href="{{ route('book') }}">BOOK</a>
+                    <a class="nav-link mx-lg-2 text-light" aria-current="page" href="{{ route('user.book') }}">BOOK</a>
                 </li>
             </ul>
             <div class="navbar-login d-flex justify-content-center align-items-center pe-3" id="navbarNav">
@@ -94,7 +96,9 @@
                                 <option value="Videoshoot">Videoshoot</option>
                             </select>
                             @error('service')
-                                <div class="text-danger">{{ $message }}</div>
+                                <div class="text-danger">
+                                    <p>The service field is required.</p>
+                                </div>
                             @enderror
                         </div>
                         <div class="mb-3">

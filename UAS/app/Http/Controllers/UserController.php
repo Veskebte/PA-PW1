@@ -11,8 +11,22 @@ class UserController extends Controller
         return view("user.index")->with("user", $users);
     }
 
-    public function user() {
-        return view("user.user");
+    public function home() {
+        $users = User::all();
+        return view("user.index")->with("user", $users);
+    }
+
+    public function about() {
+        $users = User::all();
+        return view("user.about")->with("user", $users);
+    }
+    public function service() {
+        $users = User::all();
+        return view("user.service")->with("user", $users);
+    }
+    public function book() {
+        $users = User::all();
+        return view("user.book")->with("user", $users);
     }
 
     public function check_form(User $user) {

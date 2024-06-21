@@ -50,8 +50,6 @@ Route::post('proses_login', [AuthController::class, 'proses_login'])->name('pros
 
 Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 
-Route::get('/user/index', [UserController::class,'index'])->name('user.index');
-
 Route::get('/booking/create', [BookingController::class, 'create'])->middleware('auth')->name('booking.create');
 Route::post('/booking/store', [BookingController::class, 'store'])->name('booking.store');
 
@@ -67,6 +65,11 @@ Route::group(['middleware' => ['auth']], function () {
     });
 
     Route::group(['middleware' => ['cek_login:user']], function () {
+        Route::get('/user/index', [UserController::class,'index'])->name('user.index');
+        Route::get('/user/about', [UserController::class,'about'])->name('user.about');
+        Route::get('/user/service', [UserController::class,'service'])->name('user.service');
+        Route::get('/user/book', [UserController::class,'book'])->name('user.book');
+
         Route::resource('user', UserController::class);
     });
 });

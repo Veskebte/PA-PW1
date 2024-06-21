@@ -8,7 +8,7 @@ class BookingController extends Controller
 {
     public function index() {
         $booking = Booking::all();
-        return view('booking.index', compact('booking'));
+        return view('booking.create', compact('booking'));
     }
 
     public function create() {

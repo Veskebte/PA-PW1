@@ -26,17 +26,5 @@ class DatabaseSeeder extends Seeder
         ];
 
         User::insert($user);
-
-        $booking = [
-            [
-                'name' => 'Nath',
-                'email'  => 'nath@gmail.com',
-                'mobile' => '081273061661',
-                'service' => 'Photoshoot',
-                'booking_date' => '2024/08/25',
-            ],
-        ];
-
-        Booking::insert($booking);
     }
 }
